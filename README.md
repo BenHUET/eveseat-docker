@@ -1,8 +1,8 @@
 # docker-compose for SeAT development
 ### Build image
 ```
-git clone git@github.com:eveseat/scripts.git
-cd scripts
+git clone git@github.com:BenHUET/eveseat-docker.git
+cd eveseat-docker
 docker-compose build
 ```
 This will take some times but there is only 1 image to build (mysql and redis are pulled already built from the docker hub).
