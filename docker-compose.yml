@@ -21,7 +21,8 @@ services:
       context: ./eveseat_app
     container_name: eveseat_app
     volumes: 
-      - ./packages:/var/www/seat/packages
+      - /home/ben/dropbox/dev/seat_packages/eveseat-doctrines:/var/www/seat/packages/kassie/doctrines
+      - /home/ben/dropbox/dev/seat_packages/eveseat-calendar:/var/www/seat/packages/kassie/calendar
     depends_on:
       - mysql
       - redis
